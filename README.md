@@ -1,4 +1,13 @@
 # matopt — Applied-Math Optimization Ladder in Pure C
+Warnning : These bench result onto the codespace 2xcore cpu so thats why these numbers are't great but if your run onto more core /cpu you will get even better.
+Note : 
+1. Programming Code are written via OpenCode Agents
+2. I had provided the resources and contents that i had learned in system programming in c as well programming in c
+3. A basic matrix multiplication algorithm
+4. Then i prompted it
+5. 
+6. lets again rethink and deep research what novality we can get at system level to provide more optimization so that we clim another ladder of it.
+7. In the last prompt, i just asked can we run onto any device like mac/linux/window if not make it possible.
 
 `C = A @ B` (double-precision GEMM) optimized rung by rung — from naive
 triple-loop to a packed AVX2 micro-kernel with pinned threads — using only
