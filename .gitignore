@@ -1,0 +1,45 @@
+# build outputs
+build/
+*.o
+*.a
+*.so
+*.out
+bench
+bench.exe
+bench_asan
+bench_generic
+bench_clang
+*.d
+
+# profiling / sanitizers / debug
+gmon.out
+*.gcda
+*.gcno
+callgrind.out.*
+massif.out.*
+core
+core.*
+vgcore.*
+
+# our own temp artifacts (ooc unlinks its files, belt and braces)
+/tmp/oocCXXXXXX
+oocCXXXXXX
+
+# editors & IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.orig
+*.rej
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# perf / traces
+perf.data
+perf.data.old
+*.trace
